@@ -127,7 +127,7 @@ To make this work on your own site, you will need to:
 						}
 				
 						// create attribution string
-						str = '<h2>Attribution (HTML)</h2><textarea rows="5" onClick="this.select()"><a title="' + p.title._content + '" href="' + photolink + '"><img src="' + photosrc + ps + '.jpg" /></a><br /><small><a href="http://creativecommons.org/licenses/' + cc_lic.toLowerCase()  + '/2.0/">' + cc_lic +'</a> <a title="' + p.title._content + '" href="' + photolink + '">flickr photo</a> shared by <a href="http://flickr.com/people/' + uid + '">' + p.owner.username + '</a></small></textarea><h2>Attribution (text)</h2><textarea rows="2" onClick="this.select()">' + cc_lic + ' ' + p.title._content + ' by ' + p.owner.realname + ' on Flickr ' + photolink + '</textarea><h2>Download Image</h2><a href="' +  photosrc + ps + '.jpg" download>' +  photosrc + ps + '.jpg</a>';
+						str = '<h2>Attribution (HTML)</h2><textarea rows="5" onClick="this.select()"><a title="' + p.title._content + '" href="' + photolink + '"><img src="' + photosrc + ps + '.jpg" /></a><br /><small><a href="http://creativecommons.org/licenses/' + cc_lic.toLowerCase()  + '/2.0/">' + cc_lic +'</a> <a title="' + p.title._content + '" href="' + photolink + '">flickr photo</a> shared by <a href="http://flickr.com/people/' + uid + '">' + p.owner.username + '</a></small></textarea><h2>Attribution (text)</h2><textarea rows="2" onClick="this.select()">' + p.title._content + ' by ' + p.owner.realname + ' ' + cc_lic + ' on Flickr ' + photolink + '</textarea><h2>Download Image</h2><a href="' +  photosrc + ps + '.jpg" download>' +  photosrc + ps + '.jpg</a>';
 					}
 			
 					// make it shine up, BOOM
